@@ -92,7 +92,7 @@
 % going to use.
 % Examples of valid language codes: english (or USenglish), british,
 % finnish, swedish; and so on.
-\usepackage[finnish,english]{babel}
+\usepackage[finnish,swedish,english]{babel}
 
 
 % Font selection
@@ -131,7 +131,7 @@
 
 % Natbib allows you to select the format of the bibliography references.
 % The first example uses numbered citations:
-\usepackage[square,sort&compress,numbers]{natbib}
+%\usepackage[square,sort&compress,numbers]{natbib}
 % The second example uses author-year citations.
 % If you use author-year citations, change the bibliography style (below);
 % acm style does not work with author-year citations.
@@ -139,7 +139,7 @@
 % to the author directly (\citet{blaablaa} said blaa blaa), and
 % \citep when you wish to refer similarly than with numbered citations
 % (It has been said that blaa blaa~\citep{blaablaa}).
-% \usepackage[square]{natbib}
+\usepackage[square]{natbib}
 
 % The alltt package provides an all-teletype environment that acts
 % like verbatim but you can use LaTeX commands in it. Uncomment if
@@ -243,9 +243,8 @@
 % Thesis setup
 % ==================================================================
 % Change these to fit your own thesis.
-% \COMMAND always refers to the English version;
-% \FCOMMAND refers to the Finnish version; and
-% \SCOMMAND refers to the Swedish version.
+\COMMAND always refers to the English version;
+\FCOMMAND refers to the Finnish version; and
 % You may comment/remove those language variants that you do not use
 % (but then you must not include the abstracts for that language)
 % ------------------------------------------------------------------
@@ -259,7 +258,6 @@
 % ------------------------------------------------------------------
 \newcommand{\TITLE}{Software Processes for Dummies:}
 \newcommand{\FTITLE}{Ohjelmistoprosessit mänteille:}
-\newcommand{\STITLE}{Den stora stygga vargen:}
 \newcommand{\SUBTITLE}{Re-inventing the Wheel}
 \newcommand{\FSUBTITLE}{Uusi organisaatio, uudet pyörät}
 \newcommand{\SSUBTITLE}{Lilla Vargens universum}
